@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/ios/**/*.{h,m}'
   s.frameworks = 'AVFoundation', 'QuartzCore'
+  s.resource_bundles = {'permission_handler_apple_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
